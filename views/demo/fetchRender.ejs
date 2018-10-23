@@ -1,0 +1,12 @@
+<%- include ../common/header.ejs %>
+<title><%= title %></title>
+<h3>
+    中间层获取数据 返回页面     <%= data.code %>
+</h3>
+<% var cityList=data.data.cityList %>
+
+<% cityList.forEach(function (v) { %>
+<%= v.id %><%= v.name%>
+<% }) %>
+
+<%- include ../common/footer.ejs %>

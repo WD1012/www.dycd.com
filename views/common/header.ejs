@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="description" content="第1车贷，在新车及二手车领域同时为B端和C端用户提供金融及交易服务的汽车互联网平台。">
+    <meta name="keywords" content="新车；二手车；B2B；交易服务；资金清结算；大额担保支付；B2B金融、B2C金融；个人购车；售后回租；车商贷款">
+    <meta name="baidu-site-verification" content="YjLm5vwxNn"/>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/dist/styles/dc/layout.css?v=<%= VERSION %>'/>
+    <!--[if lt IE 9]>
+    <script src="/dist/scripts/vendor/html5shiv.min.js"></script>
+    <![endif]-->
+    <style>
+        .ind-loading{
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom:0;
+            top:0;
+            z-index: 101;
+            background: #111;
+            text-align: center;}
+        .ind-loading .ind-p {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom:0;
+            top:0;
+            margin: auto;
+            text-align: center;
+            width: 80px;
+            height: 45px;
+            font-size:20px;
+            color:#F44D19;
+        }
+        .ind-loading .spinner {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom:0;
+            top:0;
+            margin: auto;
+            width: 45px;
+            height: 45px;
+            animation: loadingI 2s linear infinite;
+        }
+        .ind-loading .bubble-1,.ind-loading .bubble-2 {
+            position: absolute;
+            top: 0;
+            width: 25px;
+            height: 25px;
+            border-radius: 100%;
+            background-color: #F44D19;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        .ind-loading .bubble-2 {
+            top: auto;
+            bottom: 0;
+            animation-delay: -1.0s;
+        }
+        @keyframes bounce  {
+            0%, 100% {transform: scale(0.0);}
+            50% {transform: scale(1.0);}
+        }
+        @keyframes loadingI {
+            100% {transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+<!--[if IE]>
+<div class="ind-loading" id="ind-loading" style="z-index: 103">
+     <p class="ind-p">loading...</p>
+</div>
+<![endif]-->
+<div class="ind-loading" id="ind-loading">
+    <div class="spinner">
+        <div class="bubble-1"></div>
+        <div class="bubble-2"></div>
+    </div>
+</div>
+
+<script>
+    document.onreadystatechange=function () {
+        if (document.readyState == 'complete') {
+            var d=document.getElementsByClassName('ind-loading');
+            for(var i=0,l=d.length;i<l;i++){
+             console.log(d[i])
+             d[i].style.display = 'none'
+            }
+
+        }
+    }
+</script>

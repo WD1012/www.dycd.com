@@ -1,0 +1,81 @@
+.dc-footer {
+  background: #303640;
+  color: #fff;
+  .df-car-box {
+    padding: 69px 30px 23px;
+    margin: 0 auto;
+    width: 1280px;
+    height: 365px;
+  }
+  .df-left {
+    float: left;
+    width: 50%;
+    height: 188px;
+  }
+  .df-title {
+    float: left;
+    margin-right: 45px;
+    height: 27px;
+    line-height: 27px;
+  }
+  .df-stress {
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .df-str {
+    color: #fff;
+    font-size: 17px;
+  }
+  .df-serves {
+    text-align:left;
+    font-size: 13px;
+    margin-top: 59px;
+  }
+  .df-connect {
+    margin-bottom: 17px;
+  }
+  .df-tel {
+    display: inline-block;
+    margin-right: 7px;
+  }
+  .df-right {
+    float: left;
+    width: 50%;
+    height: 188px;
+  }
+  .df-title-r {
+    float: left;
+    margin-left: 45px;
+    height: 27px;
+    line-height: 27px;
+  }
+  .df-title-l{
+    margin-left:166px;
+    margin-right: 33px;
+  }
+  .df-serve {
+    margin-top: 61px;
+    text-align: right;
+  }
+  .df-pubimg {
+    display: inline-block;
+    margin-left: 17px;
+  }
+  .df-bottom {
+    margin: 64px auto 0;
+  }
+  .ft-box {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .ft-img-records {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 15px;
+  }
+  .df-record{
+    color:#fff;
+  }
+}

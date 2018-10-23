@@ -1,0 +1,12 @@
+<%- include ../common/header.ejs %>
+<title><%= title %></title>
+<h3>
+    cartype     <%= data.code %>
+</h3>
+<% var cityList=data.data.cityList %>
+
+<% cityList.forEach(function (v) { %>
+  <%= v.id %><%= v.name%>
+<% }) %>
+
+<%- include ../common/footer.ejs %>

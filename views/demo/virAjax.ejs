@@ -1,0 +1,53 @@
+<%- include ../common/header.ejs %>
+<h1><%= title %> 请求中间层</h1>
+<a class="userlink" href="/">back</a>
+
+<button class="tj">click</button>
+<%- include ../common/footer.ejs %>
+<script>
+    $(function () {
+
+//        $.ajax({
+//            type: "post",
+//            url: "/v1/api/borrow/submit",
+//            dataType: 'json',
+//            data:{
+//              des:'dsgsdg',
+//              mb:12345
+//            },
+//            cache:false,
+//            success: function success(data) {
+//                console.log(data);
+//            }
+//        });
+$('.tj').click(function () {
+    $.ajax({
+        type: "post",
+        url: "/v3/api/icar/n/order/appointment",
+        data: {
+            "customerName": 'sd',
+            "mobile": '21334',
+        },
+        success: function(data){
+            if(data.code==0){
+                $.dcAlt(data.msg)
+            }else {
+                $.dcAlt(data.msg)
+            }
+        }
+    });
+})
+
+//        $.ajax({
+//            type:'get',
+//            url:'/v1/api/job/category',
+//            dataType: 'json',
+//            cache:false,
+//            success:function (data) {
+//                console.log(data)
+//            }
+//        })
+
+
+    });
+</script>

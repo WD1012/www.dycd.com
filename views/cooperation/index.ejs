@@ -1,0 +1,25 @@
+<%- include ../common/header.ejs %>
+<div class="banner-coop gb-w">
+    <%- include ../common/nav.ejs %>
+    <h3 class="bh">汽车产业链生态圈，你我的第1车贷</h3>
+</div>
+<div class="dc-goberbox gb-w">
+    <div class="dc-mentbox">
+        <% var lists=data.data.lists; for(var i=0;i<lists.length;i++){ %>
+        <% if(lists[i].id=='69'){ %>
+        <%}else{%>
+            <div class="df-government cfix">
+                        <img class="df-goverimg" src="<%= lists[i].img%>" alt="">
+                    <div class="df-goverweb">
+                        <p class="df-pt"><%= lists[i].content %></p>
+                        <p class="df-website"><span class="df-site">公司网址：</span><a href="<%= lists[i].url %>" target="_blank"><%= lists[i].url %></a>
+                        </p>
+                    </div>
+            </div>
+        <%}%>
+        <%}%>
+    </div>
+</div>
+<%- include ../common/footer.ejs %>
+<!--回到顶部-->
+<img src="/dist/images/dc/backTop.png" alt="" class="df-backTop">

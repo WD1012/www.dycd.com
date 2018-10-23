@@ -1,0 +1,79 @@
+@import "../reset";
+@import "../animate";
+@import "jqueryfullpage";
+@import "swiper.min";
+@import "header";
+@import "index";
+@import "footer";
+@import "cooperation";
+@import "news";
+@import "aboutus";
+@import "newsdetail";
+@import "finance";
+@import "video";
+@import "error";
+@import "modal";
+body{
+  background: #f7f8f9;
+}
+.gb-w {
+  max-width: 1920px;
+  min-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+.banner-coop,.banner-aboutus,.banner-finance,.banner-news,.banner-news-detail {
+  height: 672px;
+  .bh{
+    margin-top: 255px;
+    font-size:50px;
+    font-weight:normal;
+    color: white;
+    text-align: center;
+  }
+}
+.banner-coop{
+  background: url("/dist/images/dc/bg-coop.jpg") no-repeat center;
+}
+.banner-finance{
+  background: url("/dist/images/dc/bg-finance.jpg") no-repeat center;
+}
+.banner-news{
+  background: url("/dist/images/dc/bg-newbanner.jpg") no-repeat center center;
+}
+.banner-aboutus{
+  background: url("/dist/images/dc/bg-about.jpg") no-repeat center;
+}
+.banner-news-detail{
+  background: url("/dist/images/dc/bg-detail.jpg") no-repeat center;
+  background-size:cover ;
+}
+.video-dycd{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  z-index: 15;
+}
+.df-backTop{
+  display: none;
+  position: fixed;
+  right:20px;
+  bottom:40px;
+  z-index:45;
+}
+
+@media screen and (max-width: 1500px) {
+  .banner-coop,.banner-aboutus,.banner-finance,.banner-news,.banner-news-detail {
+    height: 500px;
+    .bh{
+      margin-top: 180px;
+      font-size:40px;
+      font-weight:normal;
+      color: white;
+      text-align: center;
+    }
+  }
+}

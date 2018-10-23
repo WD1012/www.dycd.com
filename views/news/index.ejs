@@ -1,0 +1,79 @@
+<%- include ../common/header.ejs %>
+
+<div class="banner-news banner-news-box gb-w">
+    <%- include ../common/nav.ejs %>
+    <% var dn = aNews.data.lists;if(dn && dn.length > 0){ %>
+    <img src="/dist/images/dc/bg-icon.png" id="vd1" data-video="<%= dn[0].video %>" alt="" class="J-player bf-icon video-play">
+    <%}%>
+</div>
+<div id="imgDomain"><%=API_DOMAIN%></div>
+<div class="dc-new gb-w">
+    <div class="df-newbox">
+        <div class="df-trends">最新动态</div>
+        <div class="df-newtrends cfix">
+            <% var dn = aNews.data.lists;if(dn && dn.length > 0){ %>
+            <div class="df-issue  df-frequency">
+                <img src="<%= dn[1].focus_img%>" alt="" class="df-img">
+                <img src="/dist/images/dc/bg-icon.png" alt="" class="J-player bf-icon" data-video="<%= dn[1].video %>">
+            </div>
+            <div class="df-issue-box">
+                <p><%= dn[1].title%></p>
+                <div class="df-triangle-left"></div>
+            </div>
+            <div class="df-issue">
+                <img src="<%= dn[2].focus_img%>" alt="" class="df-img">
+            </div>
+            <div class="df-issue-box">
+                <p><%= dn[3].title%></p>
+                <p class="df-inspect"><a href="/news/detail?id=<%= dn[3].aid%>" class="df-look" target="_blank">查看详情</a></p>
+                <div class="df-triangle-right"></div>
+            </div>
+            <div class="df-issue">
+                <img src="<%= dn[3].focus_img%>" alt="" class="df-img">
+            </div>
+            <div class="df-issue-box">
+                <p><%= dn[2].title%></p>
+                <p class="df-inspect"><a href="/news/detail?id=<%= dn[2].aid%>" class="df-look" target="_blank">查看详情</a></p>
+                <div class="df-triangle-top"></div>
+            </div>
+            <%}%>
+        </div>
+        <div class="df-trends df-medium">媒体报道</div>
+        <div class="df-medium-box">
+            <%var dl=data.data.lists;for(var i=0;i<dl.length;i++){%>
+            <div class="df-medium-bottom cfix">
+                <div class="df-medium-img">
+                    <img src="<%= dl[i].focus_img%>" alt="">
+                </div>
+                <a href="/news/detail?id=<%=dl[i].aid%>" class="df-medium-resume" target="_blank">
+                    <h4 class="ft-sub"><p class="ft-subject"><%=dl[i].title%></p></h4>
+                    <p class="df-h" ><%= dl[i].desc %></p>
+                    <p class="df-bearing-box cfix">
+                        <span class="df-bearing"><%=dl[i].cname%></span>
+
+                        <span class="df-afrom"><%= dl[i].pub_time %></span>
+                        <span class="df-author"><%=dl[i].author%></span>
+
+                        <span class="df-afrom"><%= dl[i].afrom %></span>
+                    </p>
+                </a>
+            </div>
+            <%}%>
+            <div class="df-new-more">
+                <img id="news-more" class="art-more" src="/dist/images/dc/report.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!--jwplayer调用初始化DOM-->
+<div class="df-mask">
+    <img src="/dist/images/dc/close.png" alt="" class="df-close">
+    <div id="mediaplayer" class="mediaplayer"></div>
+</div>
+<%- include ../common/footer.ejs %>
+<!--回到顶部-->
+<img src="/dist/images/dc/backTop.png" alt="" class="df-backTop">
+
+<script src="/dist/scripts/vendor/jquery.dotdotdot.js"></script>
+<script src="/dist/scripts/dc/news.js?v=<%=VERSION%>"></script>
+

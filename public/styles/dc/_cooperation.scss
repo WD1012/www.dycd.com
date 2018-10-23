@@ -1,0 +1,84 @@
+.dc-goberbox {
+  background: #f7f8f9;
+  .dc-mentbox {
+    padding: 50px 0 82px;
+    margin: 0 auto;
+    width: 1002px;
+  }
+  .df-government {
+    position: relative;
+    padding: 47px 60px 0 50px;
+    margin-bottom: 30px;
+    width: 1002px;
+    height: 253px;
+    background: #fff;
+  }
+  .df-goverztimg {
+    padding: 5px 140px 0 100px !important;
+  }
+  .df-goverimg {
+    float: left;
+    width: 255px;
+    height: 125px;
+    margin: 20px 36px 0 0;
+  }
+  .df-goverweb {
+     overflow: hidden;
+  }
+  .df-pt {
+    color: #737373;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .df-website {
+    margin-top: 50px;
+  }
+  .df-site {
+    color: #999999;
+    font-size: 16px;
+  }
+  a {
+    color: #13AFEC;
+    font-size: 16px;
+  }
+}
+
+.df-goverdetail {
+  position: absolute;
+  bottom: 45px;
+  right: 61px;
+  height: 39px;
+  line-height: 39px;
+  width: 143px;
+  text-align: center;
+  color: #F34D19;
+  font-size: 18px;
+  background: #fff;
+  .df-detail {
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    width: 136px;
+    color: #F34D19;
+    border: 1px solid #F34D19;
+    border-radius: 3px;
+  }
+  .df-detail:hover {
+    color: #fff;
+    background: #F34D19;
+  }
+}
+.df-gover {
+  height: 303px;
+}
+
+
+@media screen and (max-width: 1500px) {
+  .dc-goberbox .df-pt {
+    color: #737373;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+}
+

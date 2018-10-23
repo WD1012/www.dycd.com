@@ -1,0 +1,774 @@
+.J-tabw {
+  .animated {
+    display: none;
+  }
+}
+
+.df-box {
+  background: #F7F8F9;
+}
+
+.df-aboutus-box {
+  height: 70px;
+  line-height: 68px;
+  background: #fff;
+  .df-title-b {
+    width: 870px;
+    margin: 0 auto;
+  }
+  .df-about-title {
+    float: left;
+    width: 80px;
+    text-align: center;
+    margin-right: 45px;
+    font-size: 16px;
+    color: #999999;
+    cursor: pointer;
+  }
+  .df-about-tone {
+    width: 112px;
+  }
+  .active {
+    color: #FF7D58;
+    font-size: 18px;
+    border-bottom: 2px solid #FF7D58;
+  }
+  .df-about-our {
+    margin-right: 0;
+  }
+}
+
+//第1车贷简介
+.dc-aboutus {
+  display: none;
+  .dc-aboutuw-course {
+    padding: 40px 0 100px 0;
+  }
+  .df-about-series {
+    margin: 0 auto;
+    width: 1002px;
+    background: #fff;
+  }
+  .df-about-left {
+    float: left;
+    width: 412px;
+    height: 555px;
+  }
+  .df-briefly {
+    width: 100%;
+    height: 100%;
+  }
+  .df-about-right {
+    float: left;
+    padding: 65px 75px 75px 70px;
+    width: 590px;
+    height: 555px;
+    font-size: 16px;
+    color: #737373;
+  }
+  .df-ecology {
+    margin-bottom: 33px;
+    color: #45555F;
+    font-size: 26px;
+  }
+  .df-pass {
+    text-indent: 2em;
+    line-height: 26px;
+    text-align: justify;
+  }
+  .df-pass-first {
+    margin-bottom: 22px;
+  }
+}
+
+//企业文化
+.dc-civilization {
+  display: none;
+  padding: 40px 0 100px 0;
+  .df-civilization-box {
+    margin: 0 auto;
+    width: 1000px;
+  }
+  .df-facevalue {
+    margin-bottom: 40px;
+    background: #fff;
+  }
+  .df-facevalue-b {
+    margin-bottom: 0;
+  }
+  .df-mission {
+    float: left;
+    width: 363px;
+    height: 333px;
+  }
+  .df-miss {
+    width: 100%;
+    height: 100%;
+  }
+  .df-aspiration-box {
+    float: left;
+    padding: 70px 90px;
+    overflow: hidden;
+    height: 333px;
+    font-size: 18px;
+    color: #737373;
+  }
+  .df-aspiration {
+    margin-bottom: 40px;
+    font-size: 32px;
+    color: #45555F;
+  }
+  .df-df-aspiration-h {
+    line-height: 27px;
+  }
+}
+
+//发展历程
+.dc-grow {
+  display: none;
+  padding: 40px 0 100px 0;
+  .df-grow-box {
+    position: relative;
+    background: url("/dist/images/dc/road.png") no-repeat 290px 45px #fff;
+    width: 1000px;
+    height: 1866px;
+    margin: 0 auto;
+  }
+  .df-circle {
+    position: absolute;
+    left: 493px;
+    z-index: 99;
+    width: 18px;
+    height: 18px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+  }
+  .df-circles {
+    position: absolute;
+    z-index: 99;
+    width: 45px;
+    height: 2px;
+    background: #373737;
+  }
+  .df-date-box {
+    position: absolute;
+    color: #45555F;
+    font-size: 18px;
+  }
+  .df-date {
+    font-size: 21px;
+  }
+  .df-date-boxs {
+    position: absolute;
+    color: #45555F;
+    font-size: 18px;
+    text-align: right;
+    .df-date {
+      font-size: 21px;
+    }
+  }
+  .df-circle-one {
+    top: 520px;
+  }
+  .df-circle-ones {
+    top: 528px;
+    left: 515px;
+  }
+  .df-date-one {
+    top: 510px;
+    left: 575px;
+  }
+  .df-circle-two {
+    top: 620px;
+  }
+  .df-circle-twos {
+    top: 628px;
+    left: 447px;
+  }
+  .df-date-two {
+    top: 610px;
+    left: 252px;
+  }
+  .df-circle-three {
+    top: 720px;
+  }
+  .df-circle-threes {
+    top: 727px;
+    left: 515px;
+  }
+  .df-date-three {
+    top: 710px;
+    left: 575px;
+  }
+  .df-circle-four {
+    top: 820px;
+  }
+  .df-circle-fours {
+    top: 830px;
+    left: 447px;
+  }
+  .df-date-four {
+    top: 810px;
+    left: 328px;
+  }
+  .df-circle-five {
+    top: 920px;
+  }
+  .df-circle-fives {
+    top: 930px;
+    left: 515px;
+  }
+  .df-date-five {
+    top: 910px;
+    left: 575px;
+  }
+  .df-circle-six {
+    top: 1020px;
+  }
+  .df-circle-sixs {
+    top: 1030px;
+    left: 447px;
+  }
+  .df-date-six {
+    top: 1010px;
+    left: 352px;
+  }
+  .df-circle-seven {
+    top: 1120px;
+  }
+  .df-circle-sevens {
+    top: 1130px;
+    left: 515px;
+  }
+  .df-date-seven {
+    top: 1110px;
+    left: 575px;
+  }
+  .df-circle-eight {
+    top: 1220px;
+  }
+  .df-circle-eights {
+    top: 1230px;
+    left: 447px;
+  }
+  .df-date-eight {
+    top: 1210px;
+    left: 318px;
+  }
+  .df-circle-nine {
+    top: 1320px;
+  }
+  .df-circle-nines {
+    top: 1330px;
+    left: 515px;
+  }
+  .df-date-nine {
+    top: 1310px;
+    left: 575px;
+  }
+  .df-circle-ten {
+    top: 1420px;
+  }
+  .df-circle-tens {
+    top: 1430px;
+    left: 447px;
+  }
+  .df-date-ten {
+    top: 1410px;
+    left: 285px;
+  }
+  .df-circle-obt{
+    top: 1520px;
+  }
+  .df-circle-obts{
+    top: 1530px;
+    left: 515px;
+  }
+  .df-date-obt{
+    top: 1510px;
+    left: 575px;
+  }
+}
+
+//荣誉奖项
+.dc-honour-box {
+  padding: 40px 0 100px 0;
+  display: none;
+  .dc-trophy {
+    margin: 0 auto;
+    padding-top: 11px;
+    margin-bottom: 20px;
+    width: 902px;
+    height: 213px;
+    background: #fff;
+    text-align: center;
+    font-size: 18px;
+    color: #888888;
+  }
+  .dc-trophy-h {
+    margin-bottom: 0;
+  }
+  .dc-trophy-img {
+    width: 53px;
+    height: 68px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .df-fresh {
+    margin: 25px 0 15px 0;
+    font-size: 24px;
+    color: #45555F;
+  }
+  .dc-trophy-box {
+    height: 312px;
+  }
+  .df-fresh-t {
+    margin-top: 25px;
+  }
+
+  .df-fresh-lv {
+    margin: 0 0 15px 0;
+    font-size: 24px;
+    color: #45555F;
+  }
+  .df-fresh-top{
+    margin-top:15px;
+  }
+  .dc-trophy-two {
+    height: 276px;
+  }
+}
+
+//核心团队
+.dc-nucleus {
+  display: none;
+  padding: 40px 0 100px 0;
+  .dc-nucleus-two {
+    width: 664px;
+    background: #fff;
+    margin: 0 auto;
+  }
+  .dc-nucleus-box {
+    width: 1000px;
+    background: #fff;
+    margin: 0 auto;
+  }
+  .df-team {
+    float: left;
+    position: relative;
+    margin: 0 15px 15px 0;
+    width: 323px;
+    height: 491px;
+    overflow: hidden;
+  }
+  .df-person {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .df-team-box {
+    position: absolute;
+    left: 0;
+    bottom: -145px;
+    width: 323px;
+    height: 245px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .df-team-name {
+    margin-top: 25px;
+    font-size: 24px;
+  }
+  .df-profession {
+    margin-bottom: 18px;
+  }
+  .df-introduce {
+    padding: 10px 34px 0 34px;
+    font-size: 14px;
+    line-height:1.5;
+  }
+  .df-team-right {
+    margin-right: 0;
+  }
+  .df-team-b {
+    margin-bottom: 0;
+  }
+}
+
+//联系我们
+.dc-keep {
+  display: none;
+  .df-map {
+    background: url("/dist/images/dc/bg-map.jpg") no-repeat center top;
+    height: 1194px;
+  }
+  .df-map-box {
+    position: relative;
+    width: 1280px;
+    height: 1194px;
+    margin: 0 auto;
+  }
+  .df-city-box {
+    position: absolute;
+    top: 270px;
+    left: 870px;
+  }
+  .df-cityassemblet {
+    padding: 10px 0 0 30px;
+    background: url("/dist/images/dc/frametop.png") no-repeat left top;
+    height: 58px;
+    width: 257px;
+    color: #00FFFF;
+    font-size: 26px;
+  }
+  .df-cityassemblem {
+    padding: 20px 23px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 253px;
+    border-right: 1px solid #04b1b7;
+    border-left: 1px solid #04b1b7;
+    background: rgba(0, 9, 15, 0.2);
+  }
+  .df-cityassembleb {
+    background: url("/dist/images/dc/framebottom.png") no-repeat left center;
+    height: 52px;
+    width: 257px;
+  }
+  .df-boxblet1{
+    display: block;
+    position: relative;
+    height: 156px;
+  }
+  .df-cityassemblet1 {
+    position: absolute;
+    top:35px;
+    left:0;
+    padding: 10px 0 0 30px;
+    background: url("/dist/images/dc/frametop.png") no-repeat left top;
+    height: 58px;
+    width: 257px;
+    color: #00FFFF;
+    font-size: 26px;
+  }
+  .df-cityassemblem1 {
+    display: none;
+    padding: 20px 23px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 253px;
+    border-right: 1px solid #04b1b7;
+    border-left: 1px solid #04b1b7;
+    background: rgba(0, 9, 15, 0.2);
+  }
+  .df-cityassembleb1 {
+    position: absolute;
+    top:93px;
+    left:0;
+    background: url("/dist/images/dc/framebottom.png") no-repeat left center;
+    height: 52px;
+    width: 257px;
+  }
+  .df-way {
+    position: absolute;
+    bottom: 88px;
+    left: 415px;
+    background: url("/dist/images/dc/way.png") no-repeat left top;
+    height: 283px;
+    width: 558px;
+  }
+  .df-assemble {
+    position: relative;
+  }
+  .df-city {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #00ffff;
+    border: 1px solid #00ffff;
+    border-radius: 50%;
+    box-shadow: 0 0 18px white;
+    cursor: pointer;
+  }
+  .active {
+    width: 14px;
+    height: 14px;
+    background: #07f0f0;
+  }
+  .df-hlj {
+    top: 280px;
+    left: 790px;
+  }
+  .df-bj {
+    top: 395px;
+    left: 667px;
+  }
+  .df-hb {
+    top: 425px;
+    left: 655px;
+  }
+  .df-tj {
+    top: 409px;
+    left: 682px;
+  }
+  .df-sd {
+    top: 460px;
+    left: 690px;
+  }
+  .df-hn {
+    top: 500px;
+    left: 640px;
+  }
+  .df-ah {
+    top: 535px;
+    left: 695px;
+  }
+  .df-sh {
+    top: 542px;
+    left: 760px;
+  }
+  .df-js {
+    top: 530px;
+    left: 730px;
+  }
+  .df-zj {
+    top: 565px;
+    left: 745px;
+  }
+  .df-jx {
+    top: 605px;
+    left: 680px;
+  }
+  .df-fj {
+    top: 630px;
+    left: 725px;
+  }
+  .df-fd {
+    top: 680px;
+    left: 655px;
+  }
+  .df-fx {
+    top: 695px;
+    left: 565px;
+  }
+  .df-jl {
+    top: 315px;
+    left: 775px;
+  }
+  .df-ln {
+    top: 360px;
+    left: 745px;
+  }
+  .df-nng {
+    top: 385px;
+    left: 605px;
+  }
+  .df-nx {
+    top: 440px;
+    left: 535px;
+  }
+  .df-gs {
+    top: 480px;
+    left: 505px;
+  }
+  .df-sx {
+    top: 445px;
+    left: 620px;
+  }
+  .df-sxxa {
+    top: 505px;
+    left: 570px;
+  }
+  .df-qh {
+    top: 455px;
+    left: 440px;
+  }
+  .df-hbwh {
+    top: 565px;
+    left: 640px;
+  }
+  .df-sc {
+    top: 590px;
+    left: 490px;
+  }
+  .df-cq {
+    top: 565px;
+    left: 560px;
+  }
+  .df-hncs {
+    top: 615px;
+    left: 625px;
+  }
+  .df-gz {
+    top: 635px;
+    left: 545px;
+  }
+  .df-yn {
+    top: 675px;
+    left: 475px;
+  }
+  .df-hnhk {
+    top: 745px;
+    left: 600px;
+  }
+  .df-xj {
+    top: 320px;
+    left: 310px;
+  }
+  .df-way-box {
+    position: relative;
+  }
+  .df-address {
+    position: absolute;
+    top: 30px;
+    left: 65px;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 30px;
+  }
+  .df-tilx {
+    font-size: 24px;
+    color: #00FFFF;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+//加入我们
+.dc-join {
+  display: none;
+  padding: 40px 0 100px 0;
+  .df-join-box {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .df-join-left {
+    float: left;
+    width: 240px;
+    margin-right: 30px;
+  }
+  .df-synthesize {
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    width: 240px;
+    color: #888888;
+    border: 1px solid #d8d8d8;
+    background: #f2f2f2;
+    cursor: pointer;
+  }
+  .df-synthesize-top {
+    border-top: 0;
+  }
+  .df-synthesize-change {
+    background: #fff;
+    color: #F34D19;
+    font-size: 18px;
+  }
+  .df-send-box {
+    margin-top: 75px;
+    color: #888888;
+    font-size: 16px;
+    text-align: center;
+  }
+  .df-send {
+    color: #45555F;
+    font-size: 20px;
+  }
+  .df-email {
+    color: #45555F;
+  }
+  .df-join-right {
+    float: left;
+    width: 730px;
+  }
+  .df-right-box {
+    padding: 40px 65px;
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 2px 8px #ddd;
+  }
+  .df-nomore {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+  }
+  .df-right-b {
+    margin-bottom: 0;
+  }
+  //.df-right-tit {
+  //  height: 28px;
+  //  line-height: 28px;
+  //}
+  .df-designer {
+    float: left;
+    color: #45555F;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .df-need-box {
+    float: right;
+    //width: 260px;
+  }
+  .df-need {
+    display: inline-block;
+    font-size: 16px;
+    color: #45555F;
+  }
+  .df-site {
+    display: inline-block;
+    margin-left: 45px;
+    font-size: 16px;
+    color: #45555F;
+  }
+  .df-post {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .df-duty {
+    font-size: 18px;
+    color: #45555F;
+    margin-bottom: 8px;
+  }
+  .df-duty-h {
+    line-height: 21px;
+  }
+  .df-join-bottom {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 142px;
+    height: 38px;
+    line-height: 38px;
+    color: #F34D19;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #F34D19;
+    border-radius: 3px;
+    cursor: pointer;
+    .df-skim {
+      color: #F34D19;
+    }
+  }
+  .df-join-bottom:hover{
+    background:#F34D19;
+    .df-skim {
+      color: #fff;
+    }
+  }
+}
+
+
+.df-city-box{
+    .animated {
+      display: block;
+    }
+}
+
+

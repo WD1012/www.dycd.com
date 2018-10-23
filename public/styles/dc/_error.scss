@@ -1,0 +1,25 @@
+.dc-err-box{
+  min-width: 1280px;
+  max-width:1920px;
+  background: url('/dist/images/dc/bg-wrong.jpg') no-repeat center;
+  background-size:cover;
+  height:1080px;
+  .df-err{
+    margin:0 auto;
+    padding:805px 0 0 0;
+    width:1280px;
+    height:1080px;
+    text-align: center;
+  }
+  .df-err-list{
+    display: inline-block;
+    background:#F34D19;
+    color:#fff;
+    font-size:32px;
+    width:350px;
+    height:70px;
+    line-height:70px;
+    text-align:center;
+    border-radius: 35px;
+  }
+}

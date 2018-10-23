@@ -1,0 +1,19 @@
+<%- include ../common/header.ejs %>
+<title><%= title%></title>
+<h3>
+   service  sdg
+</h3>
+
+<%- include ../common/footer.ejs%>
+<script>
+    $(function () {
+        $.ajax({
+            type: "post",
+            url: "/v2/api/icar/n/common/queryCities",
+            dataType: 'json',
+            success: function success(response) {
+                console.log(response);
+            }
+        });
+    });
+</script>
